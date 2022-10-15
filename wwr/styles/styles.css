@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Overlock:ital@1&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +9,7 @@ nav a {
     text-align: center;
     color: #b4654a;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg, h1, #hero-msg, h4 {
     text-align: center;
@@ -24,10 +28,14 @@ main, section {
 body {
     background-color: #c2c5bb;
     color: black;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #2b4570;
     color: #c2c5bb;
+    font-family: Overlock, cursive;
 }
 nav a:hover {
     background-color: #2b4570;
@@ -37,6 +45,10 @@ nav a:hover {
     background-color: #c2c5bb;
     color: #b4654a;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover, footer a:hover {
     background-color: #2b4570;
@@ -45,11 +57,15 @@ nav a:hover {
 .msg {
     background-color:#2b4570;
     color: #c2c5bb;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color:#c2c5bb;
     color:#2b4570;
     font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 h4, h2, .home-title, msg h2 {
     color: #157a6e;
@@ -63,10 +79,41 @@ footer a {
 }
 .icon {
     width: 80px;
+    padding: 10px;
 }
 #hero-img {
     width: 100%;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+p {
+    font-family: "Maven Pro", Helvetica, sans-serif;
+}
+.home-title {
+    font-family: Overlock, cursive;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #2b4570;
+}
+main section img {
+    box-sizing: border-box;
 }
