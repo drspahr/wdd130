@@ -181,23 +181,6 @@ main section img {
     box-sizing: border-box;
 }
 
-/* THE RIVERS page */
-
-/*.pg2 {
-    margin: 30px 2px 10px 2px;
-}
-
-.sal, .des, .gra {
-    margin: 4px 8px 4px 8px;
-}*/
-
-/*#rivers-grid {
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(20, 1fr);
-    column-gap: 10px;
-}*/
-
 #salmon {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -304,6 +287,68 @@ main section img {
 .gc_pic2 {
     grid-column: 6/10;
     grid-row: 27/50;
+}
+
+/* Contact Form */
+
+form {
+    border: 1px solid black;
+    border-radius: 1em;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 90px;
+}
+
+button {
+    margin-left: 0.5em;
+}
+
+#feedback {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+
+.moveDown {
+    margin-top: 3em;
 }
 
 @media screen and (max-width: 900px) {
