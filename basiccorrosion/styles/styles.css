@@ -2,7 +2,7 @@
 
 /* Styles for the document */
 body { 
-    max-width: 1200px;
+    max-width: 100%;
     font-size: 100%;
     background-color: #ab947e;
 }
@@ -44,7 +44,7 @@ main {
     padding: 0px 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(60, 20px);
+    grid-template-rows: repeat(56, 3fr);
 }
 
 h1 {
@@ -55,28 +55,32 @@ h1 {
     z-index: 1;
     color: #252f26;
     font-family: Chonburi;
-    font-size: 2.5em;
+    font-size: 3vw;
 }
 
 .h_pic1 {
     grid-column: 1/4;
-    grid-row: 4/19;
+    grid-row: 4/13;
     justify-self: center;
+    max-width: 100%;
+    height: auto;
 }
 
 #h_para {
     grid-column: 1/4;
-    grid-row: 20/41;
+    grid-row: 14/25;
     font-family: Roboto, sans-serif;
-    font-size: 1.5em;
+    font-size: 2vw;
     align-self: center;
 }
 
 .h_pic2 {
     grid-column: 1/4;
-    grid-row: 42/61;
+    grid-row: 26/38;
     justify-self: center;
     align-self: center;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Style for the footer area */
