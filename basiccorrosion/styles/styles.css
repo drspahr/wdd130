@@ -44,7 +44,7 @@ main {
     padding: 0px 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(56, 3fr);
+    grid-template-rows: repeat(39, 3fr);
 }
 
 h1 {
