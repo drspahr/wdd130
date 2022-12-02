@@ -42,12 +42,15 @@ body {
 main {
     margin-left: 160px;
     padding: 0px 10px;
+}
+
+.h_main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(39, 3fr);
 }
 
-h1 {
+.h_h1 {
     grid-column: 1/4;
     grid-row: 1/3;
     justify-self: center;
@@ -81,6 +84,112 @@ h1 {
     align-self: center;
     max-width: 100%;
     height: auto;
+}
+
+/* Basic page styles */
+.b_h1 {
+    width: 50%;
+    margin: 0 Auto;
+    z-index: 1;
+    color: #252f26;
+    font-family: Chonburi;
+    font-size: 3vw;
+}
+
+.b_para1, .b_para2, .b_para3, .b_para4, .b_para5 {
+    font-family: Roboto, sans-serif;
+    font-size: 2vw;
+    align-self: center;
+}
+
+#b_s1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#b_s2, #b_s3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr)
+}
+
+.def {
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.b_para1 {
+    grid-column: 2/4;
+    grid-row: 1/4;
+    padding-left: 20px;
+}
+
+.b_para2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding-right: 20px;
+}
+
+.b_img1 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    max-width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    padding-top: 2px;
+}
+
+.b_img2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    max-width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.b_para3 {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    padding-left: 60px;
+}
+
+.b_h3 {
+   width: 50%;
+   margin: 0 Auto;
+   z-index: 1;
+   color: #252f26;
+   font-family: Chonburi;
+   font-size: 3vw;
+   padding-top: 30px;
+}
+
+.b_para4 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.b_img3 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-top: 30px;
+}
+
+.b_img4 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: center;
+}
+
+.b_para5 {
+    grid-column: 2/4;
+    grid-row: 2/3; 
+    padding-left: 40px;
 }
 
 /* Style for the footer area */
