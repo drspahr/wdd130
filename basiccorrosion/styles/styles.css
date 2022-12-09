@@ -265,16 +265,7 @@ main {
     grid-column: 2/4;
     grid-row: 5/6;
     padding-left: 35px;
-}
-
-.note {
-    grid-column: 2/4;
-    grid-row: 5/6;
-    padding-left: 35px;
-    align-self: flex-end;
-    font-family: sans-serif;
-    font-size: 1.5vw;
-    color:#870202;
+    align-self: flex-start;
 }
 
 .m_para5 {
